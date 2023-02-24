@@ -32,7 +32,7 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     width: 1158px;
-    outline: 2px solid tomato;
+   
 }
 
 body {background-color: var(--white-color) ;
@@ -411,14 +411,13 @@ margin: 0;
     }
 
 .portfolio_list {
-    width: 1152px;
+    
     padding: 0px;
     margin: 0;
     list-style: none;
 
     display: flex;
     flex-wrap: wrap;
-    margin-left: -24px;
     padding-left: 0px;
     row-gap: 48px;
     column-gap: 24px;
