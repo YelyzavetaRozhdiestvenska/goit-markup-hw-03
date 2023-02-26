@@ -99,11 +99,11 @@ ul {list-style: none;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     
-   }
-
+}
+ 
    .nav_item:not(:last-child) {
     margin-right: 40px;
-   }
+}
 .contacts {
     display: flex;
     margin-left: auto;
