@@ -145,7 +145,7 @@ ul {list-style: none;}
 /*hero*/
 .hero {
     background-color: var(--title-text-color);
-    padding: 188px 320px 188px 320px;
+    padding: 188px 0px;
 
 }
 .container.hero {
@@ -166,6 +166,8 @@ padding-bottom: 0;
     line-height: 1.1;
     text-align: center;
     letter-spacing: 0.02em;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 .button_primary {
@@ -176,7 +178,7 @@ padding-bottom: 0;
 
     border-radius: 4px;
     padding: 16px  32px;
-    border: 1px solid var(--black);
+    border: 1px solid var(--accent-color);
        
     color: var(--white-color);
     background-color: var(--accent-color);
@@ -195,6 +197,7 @@ padding-bottom: 0;
 .hero .button_primary:hover,
 .hero .button_primary:focus {
     background-color: var(--button-color);
+    color: var(--white-color);
 }
 
 /*section feature*/
@@ -430,6 +433,7 @@ color: var(--accent-color);
     .button_secondary:hover,
     .button_secondary:focus {
     background-color: var(--button-color);
+    color: var(--white-color);
     }
 
 .portfolio_list {
